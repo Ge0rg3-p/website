@@ -1,0 +1,32 @@
+/* About.css */
+
+.about {
+    background-color: #4b7e83; /* Background color for the About page */
+    color: #fff; /* Light color for text to contrast with the background */
+    font-family: 'Press Start 2P', cursive; /* Retro font for a consistent look */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Bright color for headings */
+  }
+  
+  .about h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #ffcc00; /* Bright color for sub-headings */
+  }
+  
+  .about p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: center; /* Center text for better readability */
+    max-width: 800px; /* Maximum width for better line length */
+  }
+  

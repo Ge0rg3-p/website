@@ -1,0 +1,91 @@
+/* Projects.css */
+
+.projects {
+    background-color: #1d313c; /* Background color for the Projects page */
+    color: #f0f8ff; /* Light color for text */
+    font-family: 'Press Start 2P', cursive; /* Retro font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+  }
+  
+  .projects h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Bright color for headings */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center;
+    margin-top: 50px; /* Adjust this value to move the cards lower */
+  }
+  
+  .card {
+    background: #ffffff; /* Default background color for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the card */
+    width: 300px; /* Card width */
+    height: 600px; /* Card height */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    overflow: hidden; /* Hide overflow to ensure images don’t extend outside the card */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .card1 {
+    background-color: #50A3AB; /* Background color for the first card */
+  }
+  
+  .card2 {
+    background-color: #FADAC1; /* Background color for the second card */
+  }
+  
+  .card3 {
+    background-color: #F6723A; /* Background color for the third card */
+  }
+  
+  .card4 {
+    background-color: #6A0572; /* Background color for the fourth card */
+  }
+  
+  .card5 {
+    background-color: #3A7B9A; /* Background color for the fifth card */
+  }
+  
+  .card6 {
+    background-color: #B3B3B3; /* Background color for the sixth card */
+  }
+  
+  .card-logo {
+    width: 80px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between the logo and the text */
+  }
+  
+  .progress-bar {
+    background-color: #ddd; /* Background color for the progress bar */
+    border-radius: 5px; /* Rounded corners for the progress bar container */
+    height: 10px; /* Height of the progress bar */
+    width: 100%; /* Full width of the card */
+    margin-top: 10px; /* Space between the text and the progress bar */
+  }
+  
+  .progress {
+    background-color: #4caf50; /* Color of the progress indicator */
+    height: 100%; /* Full height of the progress bar container */
+    border-radius: 5px; /* Rounded corners for the progress indicator */
+  }
+  

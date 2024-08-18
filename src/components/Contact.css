@@ -1,0 +1,83 @@
+.contact {
+    background-color: #1d313c; /* Dark background color */
+    color: #f0f8ff; /* Light color for text */
+    font-family: Arial, sans-serif; /* Simple font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start instead of center */
+    min-height: 100vh; /* Ensure the container covers the full viewport height */
+    padding: 20px; /* Adjust padding to fit content within viewport */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+.contact h1 {
+    font-size: 2rem;
+    margin-bottom: 10px; /* Space below the heading */
+    margin-top: 0; /* Remove space above the heading */
+    text-align: center; /* Center the heading text */
+}
+
+.contact p {
+    font-size: 1rem;
+    margin-bottom: 20px; /* Space below the paragraph */
+    text-align: center; /* Center the paragraph text */
+    max-width: 600px; /* Limit the width for better readability */
+}
+
+.contact-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    margin-top: 10px; /* Add some space above the cards */
+}
+
+.contact-card {
+    background: #ffffff; /* Background color for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside the card */
+    width: 50px; /* Card width */
+    height: 50px; /* Card height */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.contact-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Card-specific background colors */
+.contact-card1 {
+    background-color: #50A3AB; /* Light teal color */
+}
+
+.contact-card2 {
+    background-color: #FADAC1; /* Light peach color */
+}
+
+.contact-card3 {
+    background-color: #F6723A; /* Bright orange color */
+}
+
+.contact-card h2 {
+    font-size: 1.25rem; /* Font size for the card title */
+    margin: 10px 0; /* Margin around the title */
+    color: #fff; /* White color for titles */
+}
+
+.card-icon {
+    width: 50px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it's block level for alignment */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.card-icon:hover {
+    opacity: 0.8; /* Change opacity on hover */
+}
