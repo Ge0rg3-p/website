@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.1ea0f9ec.css",
+    "main.js": "/website/static/js/main.25ea679e.js",
+    "static/media/surfing.jpg": "/website/static/media/surfing.edca7782d36f70f57c37.jpg",
+    "static/media/frisbee.jpg": "/website/static/media/frisbee.31857f01e16502cadef2.jpg",
+    "static/media/hiking.jpg": "/website/static/media/hiking.625a6142790b69a6d0ab.jpg",
+    "static/media/gmail-logo.jpg": "/website/static/media/gmail-logo.f669bfcd9e222696c0ec.jpg",
+    "static/media/html-logo.png": "/website/static/media/html-logo.946cebba89930722408b.png",
+    "static/media/fb-logo.jpg": "/website/static/media/fb-logo.f5114b1cc038294f7f97.jpg",
+    "static/media/js-logo.png": "/website/static/media/js-logo.3bdbf031993c850d7aac.png",
+    "static/media/insta-logo.jpg": "/website/static/media/insta-logo.2801a75d06ab74bcb1f4.jpg",
+    "static/media/python-logo.png": "/website/static/media/python-logo.a139606b25cbc91345c5.png",
+    "index.html": "/website/index.html",
+    "main.1ea0f9ec.css.map": "/website/static/css/main.1ea0f9ec.css.map",
+    "main.25ea679e.js.map": "/website/static/js/main.25ea679e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ea0f9ec.css",
+    "static/js/main.25ea679e.js"
+  ]
+}
